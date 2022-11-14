@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    width: 1440px;
+    max-width: 1440px;
+    background-color: #2e2b2b;
+margin: auto;
+}
+
+.navbar__img {
+    background-color: black;
+    height: 33px;
+    width: 160px;
+    padding-left: 50.58px;
+
+
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 1440px;
+    height: 119px;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    padding-right: 70px;
+
+
+
+}
+
+.navbar__list a {
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 17px;
+    font-family: DM sans;
+    color: white;
+}
+
+.main__table1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.main__table1__img {
+    height: 873px;
+    width: 650px;
+    left: 0px;
+    top: 0px;
+    border-radius: 12px;
+
+}
+
+.text-one {
+
+    height: 176px;
+    width: 526px;
+    font-size: 70px;
+    font-family: DM sans;
+    color: white;
+
+}
+
+.text-two {
+    width: 160px;
+    height: 88px;
+    font-size: 75px;
+    position: relative;
+    font-family: DM sans;
+    color: white;
+
+}
+
+.text-two img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.text-three {
+    width: 191px;
+    height: 88px;
+    font-size: 80px;
+    font-family: DM sans;
+    color: white;
+}
+
+.main__table1__icon {
+    width: 222px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.main__table1__icontext {
+    height: 24px;
+    width: 66px;
+    left: 22px;
+    font-size: 15px;
+    font-family: DM sans;
+    margin-top: 200px;
+    color: white;
+}
+
+.navbar2 {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar2__h1 {
+    margin: 70px;
+    font-size: 64px;
+    margin-bottom: 6px;
+    color: white;
+    font-family: DM sans;
+}
+
+.navbar2__button {
+    height: 51px;
+    width: 178px;
+    margin: 70px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+    background: #118DA8;
+    border: 0px;
+
+
+}
+
+.main__table2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 545px;
+    width: 1300px;
+    border-radius: 32px;
+    background-color: black;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.main__table2__text {
+
+    width: 778px;
+    height: 465px;
+
+}
+
+.main__table2__link {
+    display: block;
+    text-decoration: none;
+
+    width: 80px;
+
+    margin-top: 48px;
+
+}
+
+.main__table2__btn {
+    right: 745px;
+    height: 27px;
+    width: 73px;
+    border-radius: 6px;
+    background: #2e2b2b;
+    color: white;
+
+}
+
+.main__table2__h1 {
+    height: 141px;
+    width: 701px;
+    font-size: 64px;
+    font-family: DM sans;
+    text-align: start;
+    margin-top: 48px;
+    color: white;
+
+}
+
+.main__table2__p {
+    height: 99px;
+    width: 757px;
+    font-size: 22px;
+    font-family: DM sans;
+    text-align: start;
+    margin-top: 28px;
+    color: white;
+
+}
+
+.main__table2__btn2 {
+    display: block;
+    height: 51px;
+    width: 208px;
+    border-radius: 6px;
+    margin-top: 379px;
+    background: #118DA8;
+}
+
+.main__table3 {
+
+    height: 1531px;
+    width: 1440px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.main__table3__btn {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background: #118DA8;
+    margin-top: 248px;
+    display: block;
+
+}
+
+.main__table3__link {
+    text-decoration: none;
+    font-family: DM sans;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+}
+
+.main__table3__h1 {
+    height: 80px;
+    width: 496px;
+    font-size: 65px;
+    font-family: DM sans;
+    color: white;
+
+}
+
+.main__table3__p {
+    height: 66px;
+    width: 556px;
+    color: white;
+    font-family: DM sans;
+
+}
+
+.main__table3__ftr {
+    height: 387px;
+    width: 1300px;
+    left: 50px;
+    top: 100px;
+    border-radius: 32px;
+    background-color: black;
+    padding-top: 60px;
+    display: flex;
+    
+}
+.main__table3__ftr a{
+    text-decoration: none;
+    margin-left: 60px;
+
+}
+.main__table3__ftr h1{
+    height: 159px;
+width: 431px;
+font-family: DM sans;
+font-size:72px;
+margin-left: 60px;
+}
+.main__table3__input{
+display: flex;
+justify-content:center;
+align-items: center;
+flex-wrap: wrap;
+text-align: end;
+}
+.table3__input{
+    height: 82px;
+width: 522px;
+border-radius: 6px;
+margin-right: 60px;
+margin-bottom:20px ;
+font-size: 24px;
+font-family: DM sans;
+background-color: #2e2b2b;
+}
+.table3__submit{
+    display: block;
+    height: 48px;
+top: 204.125px;
+border-radius: 6px;
+margin-left: 225px;
+background: #118DA8;
+font-family: DM sans;
+}
+.main__table4{
+    height: 901px;
+width: 1440px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.main__table4__list{
+    width: 1300px;
+    height: 701px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.table4__list{
+    height: 321px;
+width: 423px;
+border-radius: 32px;
+background-color: black;
+
+}
+.table4__list h1{
+    color: white;
+    height: 87px;
+width: 313px;
+margin-left:50px ;
+margin-top:22px ;
+font-family: DM sans;
+border-radius: undefinedpx;
+
+}
+.table4__list p{
+    color: rgba(216, 199, 199, 0.338);
+    height: 29px;
+width: 142px;
+font-size: 23px;
+font-family: DM sans;
+margin-left: 50px;
+
+}
+.footer{
+    height: 438px;
+width: 1440px;
+display: flex;
+justify-content: space-between;
+padding-top:100px ;
+
+
+}
+.footer__img{
+    margin-left:70px ;
+}
+.footer__list{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right:300px ;
+    
+}
+.list1,.list2{
+    list-style: none;
+    font-size:18px ;
+    font-family: DM sans;
+    margin: 30px;
+    color: rgba(255, 255, 255, 0.607);
+    
+}
+.footer__list li{
+    margin-bottom: 10px;
+}
+.footer__icon img{
+    margin-left: 15px;
+    }
